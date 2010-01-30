@@ -4,11 +4,11 @@
  **/
 var rePlurk = function (doc) {
 	var
-		version   = 0.1.1,
+		version   = "0.1.2",
 		include   = ["http://www.plurk.com/"],
 		exclude   = ["http://www.plurk.com/_comet/", "http://www.plurk.com/User/", "http://www.plurk.com/i18n/"],
-		tabDoc = jetpack.tabs.focused.contentDocument
-		tabJs = jetpack.tabs.focused.contentWindow.wrappedJSObject;
+		tabDoc    = jetpack.tabs.focused.contentDocument,
+		tabJs     = jetpack.tabs.focused.contentWindow.wrappedJSObject;
 
 	var o_expand = null;
 
